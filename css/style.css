@@ -462,8 +462,8 @@ a.readmore_bt {
 }
 
 nav.main-menu {
-	float: right;
-	margin-left: 0;
+	/* float: right; */
+	/* margin-left: 0; */
 }
 
 .menu-area-main li:hover a,
@@ -579,8 +579,8 @@ nav.main-menu {
 }
 
 .right-dropdown-language {
-	float: right;
-	margin-left: 12px;
+	/* float: right; */
+	/* margin-left: 12px; */
 }
 
 .dropdown-bar .dropdown-link {
