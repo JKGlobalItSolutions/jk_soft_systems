@@ -579,8 +579,8 @@ nav.main-menu {
 }
 
 .right-dropdown-language {
-	/* float: right; */
-	/* margin-left: 12px; */
+	float: right;
+	margin-left: 12px;
 }
 
 .dropdown-bar .dropdown-link {
