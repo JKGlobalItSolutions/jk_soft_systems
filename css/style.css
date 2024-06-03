@@ -2374,3 +2374,19 @@ text-align: center;
 	top: inherit;
 	bottom: 10px;
 }
+.btn-hover-effect {
+	background-color: #f8f9fa;
+	/* Light white color */
+	color: #000;
+	border-radius: 10px;
+
+	/* Optional: Change text color to black on hover */
+ }
+
+ .btn-hover-effect:hover {
+	background-color: #121482;
+	color: #fff;
+	transition: background-color 0.3s;
+	border-radius: 10px;
+
+ }
