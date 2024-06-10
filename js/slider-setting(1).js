@@ -15,7 +15,7 @@
 				jsFileLocation: "revolution/js/",
 				sliderLayout: "fullscreen",
 				dottedOverlay: "none",
-				delay: 5000,
+				delay: 5,
 				navigation: {
 					keyboardNavigation: "on",
 					keyboard_direction: "horizontal",
