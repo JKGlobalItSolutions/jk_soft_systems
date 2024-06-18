@@ -55,35 +55,86 @@
                         href="index.html"><b>Home</b></a>
                   </li>
                   <li class="nav-item px-2">
-                     <a class="nav-link  btn-hover-effect" href="about.html" style="font-size: 13px;"><b>About Us</b></a>
+                     <a class="nav-link  btn-hover-effect" href="about.html" style="font-size: 13px;"><b>About
+                           Us</b></a>
                   </li>
                   <li class="nav-item dropdown px-2">
-                     <a class="nav-link dropdown-toggle btn-hover-effect" style="font-size: 13px;" href="#" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        <b>Solutions</b>
+                     <a class="nav-link dropdown-toggle btn-hover-effect" style="font-size: 13px;" href="#"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <b><b>Solutions</b></b>
                      </a>
-                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item btn-hover-effect" style="font-size: 13px;" href="solutions/Systems Integration And Maintenance.html">Systems Integration And Maintenance</a></li>
-                        <li><a class="dropdown-item btn-hover-effect" style="font-size: 13px;" href="solutions/Infrastructure Management.html">Infrastructure Management</a></li>
-                        <li><a class="dropdown-item btn-hover-effect" style="font-size: 13px;" href="solutions/Server & Storage.html">Server & Storage</a></li>
-                        <li><a class="dropdown-item btn-hover-effect" style="font-size: 13px;" href="solutions/Network Security.html">Network Security</a></li>
-                        <li><a class="dropdown-item btn-hover-effect" style="font-size: 13px;" href="solutions/Structured Cabling.html">Structured Cabling</a></li>
-                        <li><a class="dropdown-item btn-hover-effect" style="font-size: 13px;" href="solutions/Cloud Native Solutions.html">Cloud Native Solutions</a></li>
-                        <li><a class="dropdown-item btn-hover-effect" style="font-size: 13px;" href="solutions/Workplace Surveillance.html">Workplace Surveillance</a></li>
+                     <ul class="dropdown-menu ">
+                        <li class="nav-item dropdown"><a class="dropdown-item btn-hover-effect nav-link dropdown-toggle"
+                              style="font-size: 13px;" href="solutions/Systems Integration And Maintenance.html"
+                              role="button" data-bs-toggle="dropdown" aria-expanded="false">Systems Integration And
+                              Maintenance</a>
+                           <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="solutions/Systems Integration And Maintenance.html">
+                                    <b>Desktops</b></a></li>
+                              <li><a class="dropdown-item" href="solutions/Systems Integration And Maintenance.html">
+                                    <b>Laptops</b></a></li>
+                           </ul>
+                        </li>
+                        <li><a class="dropdown-item btn-hover-effect" style="font-size: 13px;"
+                              href="solutions/Infrastructure Management.html">Infrastructure Management</a></li>
+                        <li><a class="dropdown-item btn-hover-effect" style="font-size: 13px;"
+                              href="solutions/Server & Storage.html">Server & Storage</a></li>
+                        <li><a class="dropdown-item btn-hover-effect" style="font-size: 13px;"
+                              href="solutions/Network Security.html">Network Security</a></li>
+                        <li><a class="dropdown-item btn-hover-effect" style="font-size: 13px;"
+                              href="solutions/Structured Cabling.html">Structured Cabling</a></li>
+                        <li><a class="dropdown-item btn-hover-effect" style="font-size: 13px;"
+                              href="solutions/Cloud Native Solutions.html">Cloud Native Solutions</a></li>
+                        <li><a class="dropdown-item btn-hover-effect" style="font-size: 13px;"
+                              href="solutions/Workplace Surveillance.html">Workplace Surveillance <b>(CCTV)</b></a></li>
                      </ul>
-                  </li>
+                     <style>
+                        .dropdown:hover>.dropdown-menu {
+                           display: block !important;
+                        }
+
+                        .dropdown-submenu:hover>.dropdown-menu {
+                           display: block !important;
+                           left: 100%;
+                           margin-top: -37px;
+                        }
+
+                        .dropdown-item {
+                           font-size: small;
+                           /* 13px */
+                        }
+
+                        .dropdown-toggle::after {
+                           font-size: var(--font-md);
+                           margin-bottom: -2px;
+                        }
+
+                        .dropdown-menu li a.active {
+                           color: #fff;
+                        }
+
+                        .custom-toggle-arrow {
+                           font-size: 18px;
+                           margin-top: 1px;
+                           line-height: 12px;
+                        }
+                     </style>
                   <li class="nav-item dropdown px-2">
-                     <a class="nav-link dropdown-toggle btn-hover-effect" style="font-size: 13px;" href="#" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
+                     <a class="nav-link dropdown-toggle btn-hover-effect" style="font-size: 13px;" href="#"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <b>Products Portfolio</b>
                      </a>
                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item btn-hover-effect" style="font-size: 13px;" href="product portfolio/jksoftdesktopandworkstations.html">Jk Soft Desktops & Workstations</a></li>
-                        <li><a class="dropdown-item btn-hover-effect" style="font-size: 13px;" href="product portfolio/softwareproducts.html">Software Products</a></li>
+                        <li><a class="dropdown-item btn-hover-effect" style="font-size: 13px;"
+                              href="product portfolio/jksoftdesktopandworkstations.html">Jk Soft Desktops &
+                              Workstations</a></li>
+                        <li><a class="dropdown-item btn-hover-effect" style="font-size: 13px;"
+                              href="product portfolio/softwareproducts.html">Software Products</a></li>
                      </ul>
                   </li>
                   <li class="nav-item px-2">
-                     <a class="nav-link  btn-hover-effect" href="service portfolio.html" style="font-size: 13px;"><b>Services Portfolio</b></a>
+                     <a class="nav-link  btn-hover-effect" href="service portfolio.html"
+                        style="font-size: 13px;"><b>Services Portfolio</b></a>
                   </li>
                   <li class="nav-item px-2">
                      <a class="nav-link  btn-hover-effect" href="AMC.html" style="font-size: 13px;"><b>AMC</b></a>
@@ -99,7 +150,8 @@
                      </ul>
                   </li> -->
                   <li class="nav-item px-2">
-                     <a class="nav-link btn-hover-effect" href="contact.html" style="font-size: 13px;"><b>Contact</b></a>
+                     <a class="nav-link btn-hover-effect" href="contact.html"
+                        style="font-size: 13px;"><b>Contact</b></a>
                   </li>
                   <!-- <li class="nav-item dropdown px-2">
                      <a class="nav-link dropdown-toggle btn-hover-effect" style="font-size: 13px;" href="#" role="button"
