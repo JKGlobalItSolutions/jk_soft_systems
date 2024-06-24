@@ -1790,7 +1790,7 @@ margin-top: 20px;
 }
 
 .choose_bg {
-	background: #121482;
+	background: #fff;
 }
 
 
@@ -1894,7 +1894,7 @@ margin-top: 40px;
 .product .title h2 {
 	font-size: 50px;
 	line-height: 55px;
-	color:#121482;
+	color:#0081a8;
 	font-weight: 500;
 	text-transform: uppercase;
     margin-bottom: 27px;
@@ -2008,7 +2008,7 @@ margin-top: 20px;
 	background: #0c0505;
 }
 
-.yellow_bg {background: #121482; 
+.yellow_bg {background: #0081a8; 
 	padding: 40px 30px; 
 	margin-top: 100px;
 }
@@ -2129,11 +2129,11 @@ ul.lik li a {
 }
 
 ul.lik li a:hover {
-	color: #121482;
+	color: #fff;
 }
 
 .copyright {
-	background-color: #121482;
+	background-color: #0081a8;
 	padding: 20px 0px;
 	margin-top: 70px;
 }
@@ -2161,7 +2161,7 @@ ul.lik li a:hover {
 
 
 .brand_color {
-     background-color: #121482;
+     background-color: #0081a8;
 }
 .brand_color .titlepage {
      margin-top: 70px;
@@ -2357,7 +2357,7 @@ text-align: center;
 #main_slider .carousel-control-next:hover,
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-next:focus {
-	background: #121482;
+	background: #0081a8;
 	color: #fff;
 }
 
@@ -2384,7 +2384,7 @@ text-align: center;
  }
 
  .btn-hover-effect:hover {
-	background-color: #121482;
+	background-color: #0081a8;
 	color: #fff;
 	transition: background-color 0.3s;
 	border-radius: 10px;
