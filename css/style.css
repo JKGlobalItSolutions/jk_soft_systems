@@ -2384,7 +2384,7 @@ text-align: center;
  }
 
  .btn-hover-effect:hover {
-	background-color: #0081a8;
+	background-color: #ff0000;
 	color: #fff;
 	transition: background-color 0.3s;
 	border-radius: 10px;
